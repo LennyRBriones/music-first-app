@@ -45,7 +45,6 @@
         app:layout_constraintVertical_bias="0.015" />
 
     <EditText
-        android:drawablePadding="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/vector_person"
@@ -62,7 +61,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/vector_lock"
-        android:drawablePadding="12dp"
         android:hint="@string/hint_password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
