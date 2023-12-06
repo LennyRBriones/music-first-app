@@ -5,6 +5,24 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+    <style name="App_Theme_Blue" parent="Base.Theme.MusicApp">
+
+        <item name="android:background">@color/blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+
+
+    </style>
+
+    <style name="App_Theme_Green" parent="Base.Theme.MusicApp">
+
+    <item name="android:background">@color/green_back</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_gravity">center</item>
+
+    </style>
+
+
     <style name="Theme.MusicApp" parent="Base.Theme.MusicApp">
         <item name="android:textSize">16sp</item>
         <item name="android:drawablePadding">12dp</item>

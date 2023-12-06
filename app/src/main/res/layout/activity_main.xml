@@ -9,33 +9,19 @@
 
 
     <TextView
-        android:id="@+id/greet"
-        android:layout_width="106dp"
-        android:layout_height="61dp"
-        android:text="Music Kirby App!"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.924"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043" />
-
-    <TextView
         android:layout_width="272dp"
         android:layout_height="62dp"
         tools:background="@color/cardview_light_background"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="420dp"
+        tools:layout_editor_absoluteY="563dp"
         tools:text="This is me testing tools in a textview"
-        tools:textSize="20sp"
-        tools:ignore="MissingConstraints" />
-
+        tools:textSize="20sp" />
 
     <ImageView
         android:id="@+id/miImageView"
-        android:layout_width="154dp"
-        android:layout_height="87dp"
+        android:layout_width="189dp"
+        android:layout_height="101dp"
         android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,6 +55,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.32"
         tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/profile_photo"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:layout_width="match_parent"
